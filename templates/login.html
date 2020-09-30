@@ -105,11 +105,14 @@
 					</form>
 
 				</div>
+    {% for message in messages %}
+        <p id="messages"> {{ message }}</p>
+    {% endfor %}
 
 				<div class="mt-4">
-{#					<div class="d-flex justify-content-center links">#}
-{#						Don't have an account? <a href="{% url 'register' %}" class="ml-2">Sign Up</a>#}
-{#					</div>#}
+					<div class="d-flex justify-content-center links">
+						Don't have an account? <a href="{% url 'userapp:signup' %}" class="ml-2">Sign Up</a>
+					</div>
 
 				</div>
 			</div>

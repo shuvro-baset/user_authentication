@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1b6736-d1be-42a4-82f7-594706c70f42" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/user_authentication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/user_authentication.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/userapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,7 +83,11 @@
       <updated>1600279825754</updated>
       <workItem from="1600279827687" duration="1476000" />
       <workItem from="1600281730142" duration="438000" />
-      <workItem from="1601453738199" duration="5747000" />
+      <workItem from="1601453738199" duration="5918000" />
+      <workItem from="1601846746827" duration="364000" />
+      <workItem from="1602868769671" duration="1624000" />
+      <workItem from="1602871960500" duration="162000" />
+      <workItem from="1602872767880" duration="6137000" />
     </task>
     <servers />
   </component>
@@ -109,10 +111,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="23" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1601453853271" />
-    <state x="462" y="123" key="FileChooserDialogImpl" timestamp="1601453920551">
+    <state x="462" y="123" key="FileChooserDialogImpl" timestamp="1601847110351">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="462" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601453920551" />
+    <state x="462" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601847110351" />
     <state x="184" y="13" key="SettingsEditor" timestamp="1601453943949">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

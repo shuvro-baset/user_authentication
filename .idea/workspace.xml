@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a1b6736-d1be-42a4-82f7-594706c70f42" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/user_authentication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/user_authentication.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/userapp/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/userapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/userapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/userapp/views.py" afterDir="false" />
     </list>
@@ -40,10 +39,16 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Django\Shuvro\user_env\user_authentication\templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="user_authentication" type="Python.DjangoServer" factoryName="Django server">
@@ -87,7 +92,10 @@
       <workItem from="1601846746827" duration="364000" />
       <workItem from="1602868769671" duration="1624000" />
       <workItem from="1602871960500" duration="162000" />
-      <workItem from="1602872767880" duration="6137000" />
+      <workItem from="1602872767880" duration="6467000" />
+      <workItem from="1614534305108" duration="38000" />
+      <workItem from="1614534414201" duration="818000" />
+      <workItem from="1614545648528" duration="1879000" />
     </task>
     <servers />
   </component>
@@ -105,19 +113,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="137" y="23" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601453853271">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="137" y="23" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1601453853271" />
-    <state x="462" y="123" key="FileChooserDialogImpl" timestamp="1601847110351">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="462" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601847110351" />
-    <state x="184" y="13" key="SettingsEditor" timestamp="1601453943949">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601453943949" />
   </component>
 </project>

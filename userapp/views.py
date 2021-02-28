@@ -1,6 +1,6 @@
 from django.contrib.auth import authenticate, login, logout
 from django.shortcuts import render, redirect
-from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.forms import UserCreationForm, PasswordChangeForm
 from userapp.forms import CreateUserForm
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -55,3 +55,25 @@ def signup(request):
 def logoutUser(request):
     logout(request)
     return redirect('userapp:login')
+
+
+
+
+def changePass(request):
+    if request.user.is_authenticated:
+        if request.method == 'POST':
+            form = CreateUserForm(user=request.user, data=request.POST)
+
+            new_password = request.POST.get('new_password')
+            confirm_password = request.POST.get('confirm_password')
+            user = authenticate(request,  password=new_password)
+            user.save()
+
+            messages.info(request, 'password successfully changed')
+            return redirect('/home/')
+    else:
+        return redirect('userapp:login')
+    form = CreateUserForm()
+    context = {'form': form}
+    return render(request, "change_password.html", context)
+

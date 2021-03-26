@@ -102,12 +102,9 @@
 <div class="container py-5">
     <div class="row">
         <div class="col-12">
-            {% for u in allusers %}
-            <div class="col-3 bg-primary border m-2 rounded py-2 float-left">
-                <h3>Name: {{ u }}</h3>
-                <h5>Email: {{ u.email }}</h5>
-                <h5>session: {{ ses }}</h5>
-            </div>
+
+            {% for ses in session_ins %}
+                <h4>Session time for {{ ses.user }} is : {{ ses.ses_time }} second</h4>
             {% endfor %}
         </div>
     </div>
